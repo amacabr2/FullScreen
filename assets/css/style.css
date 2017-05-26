@@ -5,16 +5,31 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
 }
 
 .intro {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url("../img/font.jpeg");
+    background: url(https://static.pexels.com/photos/292600/pexels-photo-292600.jpeg);
     background-size: cover;
     display: table;
     top: 0;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 28%;
 }
 
 p {
