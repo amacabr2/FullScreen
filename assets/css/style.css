@@ -32,6 +32,13 @@ body {
     padding-bottom: 28%;
 }
 
+.content h1 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 600%;
+    font-weight: 100;
+    color: #E1EFE9;
+}
+
 p {
     text-align: justify;
 }
