@@ -12,7 +12,7 @@ body {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(https://static.pexels.com/photos/292600/pexels-photo-292600.jpeg);
+    background: url(https://static.pexels.com/photos/292600/pexels-photo-292600.jpeg) no-repeat 50% 50%;
     background-size: cover;
     display: table;
     top: 0;
@@ -62,12 +62,24 @@ p {
     text-align: justify;
     font-size: 150%;
     line-height: 120%;
+    font-family: sans-serif;
 }
 
 
 /*--- Media Queries --*/
 
-@media screen and (max-width: 900px) {}
+@media screen and (max-width: 900px) {
+    .content {
+        padding-bottom: 30%
+    }
+    .content h1 {
+        font-size: 450%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 9px 17px;
+    }
+}
 
 @media screen and (max-width: 768px) {}
 
