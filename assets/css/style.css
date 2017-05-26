@@ -58,6 +58,10 @@ body {
     border: solid #CBDFD6;
 }
 
+.text {
+    padding: 10%;
+}
+
 p {
     text-align: justify;
     font-size: 150%;
@@ -112,5 +116,8 @@ p {
     p {
         font-size: 100%;
         line-height: 100%;
+    }
+    .text {
+        padding: 5%;
     }
 }
